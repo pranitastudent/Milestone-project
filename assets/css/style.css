@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Anton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*--heading--*/
+
+.main-heading {
+  color:#ffffff;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin:20px 20px;
+  }
+
+/*--image--*/
+
+
+
+ 
+ 
+ 
+   
+/*--navbar--*/  
+
+.navbar-brand {
+    padding-top: 15px;
+    
+}
+   
+.navbar-inverse {
+    background-color: #000000;
+    border-bottom: none;
+    margin:0;
+}
+
+.navbar-collapse {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*--Icon bar and toggle--*/
+
+.navbar-toggle {
+    background-color:#0047b3;
+
+}
+
+/*--Icons--*/
+
+.icons:before {
+     margin-right:20px;
+     margin-left:20px;
+}
+
+.icons:after {
+    margin-left:20px
+}
+
+
+.icons {
+    margin-bottom:20px;
+    color:#ff0000;
+    font-size: 20px;
+    list-style:none;
+    }
+
+/*--List Items--*/
+
+.list-items {
+   font-family: 'Anton', sans-serif;
+   font-size: 20px;
+   font-weight:600;
+   color: #ffffff;
+}
+
+
+/*--Media Query--*/
+
+@media screen and (max-width: 500px) {
+    img {
+         width: 50%;
+         padding-top: 0px;
+         margin:-8px;
+    }
+}
+
+
+
