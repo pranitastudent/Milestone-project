@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Anton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+
+
+
+/*--header--*/
+
+.header-container {
+    height:65%;
+}
+
+
 /*--heading--*/
 
 .main-heading {
@@ -8,12 +18,15 @@
   font-family: 'Anton';
   font-size: 40px;
   text-align: center;
-  margin:20px 20px;
+  margin-bottom: 20px;
     }
 
 /*--image--*/
 
-
+.logo {
+   
+    
+}
 
  
  
@@ -30,6 +43,7 @@
     background-color: #000000;
     border-bottom: none;
     margin:0;
+    
 }
 
 .navbar-collapse {
@@ -42,7 +56,7 @@
 /*--Icon bar and toggle--*/
 
 .navbar-toggle {
-    background-color:#0047b3;
+    background-color:#004782;
  
 }
 
@@ -90,6 +104,9 @@
    color: #ffffff;
 }
 
+
+/*--Navagation Links--*/
+
 .nav a {
    text-decoration:none;
   }
@@ -102,16 +119,44 @@
 @media screen and (max-width: 600px) {
     img {
          width: 50%;
-         padding-top: 0px;
+         padding-bottom:10px;
          margin:-8px;
     }
     
 }
 
+@media(max-width:767px) {
+    logo-brand {
+    padding: 11px 11px 11px 10px
+    }
+}
 
-/*--Container--*/
+
+/*--Background Image--*/
 
 .home-container {
-    background: url('assets/images/main-image.jpg') no-repeat center center fixed;
+    height: 100vh;
+   background: url('../images/main-image.jpg') no-repeat center center fixed; 
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
     
+    
+/*--Footer--*/
+
+.footer-container {
+    background-color: #000000;
+    
+}
+  
+.about-section {
+    font-family: 'Anton' , 'sans-serif';
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+}  
+ 
+    
+   
