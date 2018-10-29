@@ -109,4 +109,9 @@
 }
 
 
+/*--Container--*/
 
+.home-container {
+    background: url('assets/images/main-image.jpg') no-repeat center center fixed;
+}
+    
