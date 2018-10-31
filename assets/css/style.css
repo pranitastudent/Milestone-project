@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Anton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--header--*/
-
-.header-container {
+body {
+    margin:0px;
     padding:0px;
 }
+
+
+
+/*---------------------------------------------------------header--*/
 
 
 /*--heading--*/
@@ -17,17 +20,11 @@
   margin-bottom: 20px;
     }
 
-/*--image--*/
 
-.logo {
-   background-image: url('../images/the-who-logo.jpg');
-   background-repeat:no-repeat;
-   background-position: center;
-   background-size: cover;
-    }
+
 
  
-/*--navbar--*/  
+/*----------------------------------------------------------navbar--*/  
 
 .navbar-brand {
     padding-top: 15px;
@@ -63,6 +60,7 @@
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
     border:2px solid #b30000;
+    margin-top: 16px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
@@ -71,7 +69,7 @@
 }
 
 
-/*--Icons--*/
+/*-----------------------------------------------------------Icons--*/
 
 .icons:before {
      margin-right:20px;
@@ -90,7 +88,7 @@
     list-style:none;
     }
 
-/*--List Items--*/
+/*-------------------------------------List Items and Social Media Icons--*/
 
 .list-items {
    font-family: 'Anton', sans-serif;
@@ -98,6 +96,19 @@
    font-weight:600;
    color: #ffffff;
 }
+
+.social-media-links {
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+.social-media-links li a i {
+        color:#ff0000;
+        display: inline-block;
+        padding:10px;
+        
+    }
 
 
 /*--Navagation Links--*/
@@ -112,11 +123,13 @@
 
 
 
-/*--Background Image--*/
+/*-------------------------------Background Image--*/
 
 .home-container {
    height: 100vh;
+   margin-top: -175px;
   background:url('../images/main-image.jpg');
+  background-repeat:  no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -124,21 +137,25 @@
 }
     
     
-/*--Footer--*/
+/*----------------------------------------Footer--*/
 
 .footer-container {
     background-color: #000000;
     
 }
   
-.about-section {
+.about {
     font-family: 'Anton' , 'sans-serif';
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 15px;
+    font-weight: 100;
     color: #ffffff;
 }  
+
+
+
+
  
-/*--Media Query--*/
+/*-----------------------------------Media Query--*/
 
 @media screen and (max-width: 767px) {
     img {
@@ -150,56 +167,79 @@
 }
 
 
+
+@media screen and (max-width: 414px) {
+    img {
+         width: 90px;
+         height:50px;
+         padding-bottom:10px;
+         margin:0px;
+    }
+    
+}
+
+@media(min-width:320px) and (max-width:414px) {
+    .footer-logo {
+        margin-top: 20px;
+    }
+    
+}
+
 @media(max-width:767px) {
     logo-brand {
     padding: 11px 11px 11px 10px
     }
 }
-   
-   
+  
+
 @media(min-width:768px) {
  .navbar-right {
      margin-right: 40px;
  }
 }   
 
-@media screen and (max-width: 500px){
-.home-container {
- height:100vh;
- width:100%;
- background-repeat: no-repeat;
- background-size: 441px;
- padding: 0px;
-}
-}
-
-
-@media screen and (max-width: 400px){
-.home-container {
- height:100vh;
- width:100%;
- background-repeat: no-repeat;
- background-size: 300px;
- padding: 0px;
-}
-}
-
-@media screen and (max-width: 380px){
+@media(max-width:1024px) {
 .home-container {
  height:100vh;
  width:100%;
  background-repeat: no-repeat;
  background-size: contain;
  padding: 0px;
+ margin:0px;
 }
 }
 
-@media screen and (min-width: 768px){
-.home-container {
- height:100vh;
- width:100%;
- background-repeat: no-repeat;
- background-size: contain;
- padding: 0px;
+
+@media(min-width:1460px) {
+    .home-container {
+   height: 100vh;
+   margin-top: -175px;
+  background:url('../images/main-image.jpg');
+  background-repeat:  no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
 }
+}
+
+
+@media(min-width:1460px){
+    .navbar-inverse {
+    background-color: transparent;
+    border-bottom: none;
+    margin: 0;
+}
+}
+
+@media(min-width:768px) {
+    .social-media-links li a i {
+     text-align: middle;
+    }
+}
+
+.test-address {
+    background-color: red;
+    color: white;
 }
