@@ -58,4 +58,3 @@ The website contains five pages; Home Page, Gallery, Audio, Video and Hire Us pa
 
 ## Aknowledgements
 
-/assets/images/WHO.pdf
