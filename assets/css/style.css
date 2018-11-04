@@ -1,291 +1,348 @@
-@import url('https://fonts.googleapis.com/css?family=Anton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Anton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Righteous:100,200,300,400,500');
+
 
 body {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
-
 
 
 /*---------------------------------------------------------header--*/
 
-
-/*--heading--*/
+/*---------------------------------------------------------heading--*/
 
 .main-heading {
-  color:#ffffff;
-  font-family: 'Anton';
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 50px;
-    }
+    color: #ffffff;
+    font-family: 'Anton';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+.song-heading {
+    color: #0000ff;
+    font-family: 'Righteous';
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
 
- 
-/*----------------------------------------------------------navbar--*/  
+}
+
+/*----------------------------------------------------------navbar--*/
 
 .navbar-brand {
     padding-top: 15px;
-    
+
 }
-   
+
 .navbar-inverse {
     background-color: #000000;
     border-bottom: none;
-    margin:0;
-    
+    margin: 0;
+
 }
 
 .navbar-collapse {
     position: relative;
-    z-index:99;
-    
-    
+    z-index: 99;
+
+
 }
 
 
-/*--Icon bar and toggle--*/
+/*--------------------------------------------------------Icon bar and toggle--*/
 
 .navbar-toggle {
-    background-color:#004782;
- 
+    background-color: #004782;
+
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #ffffff;
     font-size: 400px;
-   
+
 }
 
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
-    border:2px solid #b30000;
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle {
+    border: 2px solid #b30000;
     margin-top: 16px;
 }
 
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
-    background-color:#b30000 ;
-    
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #b30000;
+
 }
 
 
 /*-----------------------------------------------------------Icons--*/
 
 .icons:before {
-     margin-right:20px;
-     margin-left:20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .icons:after {
-    margin-left:20px
+    margin-left: 20px
 }
 
 
 .icons {
-    margin-bottom:20px;
-    color:#ff0000;
+    margin-bottom: 20px;
+    color: #ff0000;
     font-size: 20px;
-    list-style:none;
-    }
+    list-style: none;
+}
 
 
 /*-------------------------------------List Items and Social Media Icons--*/
 
 .list-items {
-   font-family: 'Anton', sans-serif;
-   font-size: 20px;
-   font-weight:600;
-   color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .social-media-links {
-        font-size: 40px;
-        text-align: center;
-    }
+    font-size: 40px;
+    text-align: center;
+}
 
 
 .social-media-links a i {
-        color:#ff0000;
-        display: inline-block;
-        padding:10px 0;
-        text-align:center;
-         transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-        }
-        
+    color: #ff0000;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 .social-media-links a i:hover {
-     color:#ffffff;
-  }      
+    color: #ffffff;
+}
 
 
 /*-------------------------------------------------Navagation Links--*/
 
 .nav a {
-   text-decoration:none;
-  }
-
-.nav a:hover {
-    color:#0047b3;
+    text-decoration: none;
 }
 
-/*------------------------------------------------------------Gallery---*/
+.nav a:hover {
+    color: #0047b3;
+}
+
+/*------------------------------------------------------------Photos---*/
 
 .photos {
-    
+
     width: 100% !important;
     margin-top: 9%;
-    margin-left:10px;  
+    margin-left: 10px;
 
-    
+
 }
 
 .photos-2 {
-    margin-top:50px;
-    margin-left:10px;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .gallery-photos {
     width: 90% !important;
-    height:10%;
+    height: 10%;
 
-    }
+}
+
 .images {
-    height:100vh;
-    background-image:url('../images/main-image.jpg');
-    background-repeat:no-repeat;
+    height: 100vh;
+    background-image: url('../images/main-image.jpg');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
+
+.album {
+    position: relative;
+    left: 80%;
+    margin-top: 20px;
+    font-family: 'Righteous';
+    font-size: 20px;
+    font-weight: 300;
+    color: #ff1a1a;
+    letter-spacing: 2px;
+    line-height: 17px;
+
+}
+
+
+
+
 /*----------------------------------------Footer--*/
 
 .footer-container {
     background-color: #000000;
-    
+
 }
-  
+
 .about {
-    font-family: 'Anton' , 'sans-serif';
+    font-family: 'Anton', 'sans-serif';
     font-size: 15px;
     font-weight: 100;
     color: #ffffff;
-    text-align:right;
-}  
+    text-align: right;
+}
 
 
-/*-------------------------------------Videos---*/
+/*-------------------------------------Videos and Audio---*/
 
 .main-video {
     position: absolute;
-    top:35%;
-    left:50%;
-    transform:translate(-50%,50%);
-    
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
 }
 
- 
+
+
 /*-----------------------------------Media Query--*/
 
 @media screen and (max-width: 414px) {
     .logo {
-         width: 90px;
-         height:50px;
-         padding-bottom:10px;
-         margin:0px;
+        width: 90px;
+        height: 50px;
+        padding-bottom: 10px;
+        margin: 0px;
     }
-    
+
 }
 
-@media(min-width:320px) and (max-width:414px){
+@media(min-width:320px) and (max-width:414px) {
     .footer-logo {
-         width: 90px;
-         height:50px;
-         padding-bottom:10px;
-         margin-top:20px;
+        width: 90px;
+        height: 50px;
+        padding-bottom: 10px;
+        margin-top: 20px;
     }
 
 }
-  
+
 
 @media(min-width:768px) {
- .navbar-right {
-     margin: 12px;
- }
-}   
-
-
-@media(min-width:1460px){
-    .navbar-inverse {
-    background-color: #000000 !important;
-    border-bottom: none;
-    margin: 0;
-    
+    .navbar-right {
+        margin: 12px;
+    }
 }
+
+
+@media(min-width:1460px) {
+    .navbar-inverse {
+        background-color: #000000 !important;
+        border-bottom: none;
+        margin: 0;
+
+    }
 }
 
 @media(min-width:768px) {
     .social-media-links li a i {
-     text-align: middle;
+        text-align: middle;
     }
 }
 
-  
+
 @media(max-width:1024px) {
     .main-video {
-     top: 30%;
-     width: 70%;
+        top: 30%;
+        width: 70%;
     }
-}     
+}
 
 
-/*------------------------Photos-----*/
+/*------------------------Photos Media Query-----*/
 
 @media(min-width:300px) and (max-width:767px) {
     .photos {
-    margin-top: 6%;
-    margin-bottom: 2%;
-    margin-left: 10px;
-    
-}
+        margin-top: 6%;
+        margin-bottom: 2%;
+        margin-left: 10px;
 
-
-.photos-2 {
-    margin-top: -9px;
-    margin-left: 10px;
-}
-
-.gallery-photos {
-  width: 45%!important;
-    margin-left: 20%;
-    margin-top: -4%;
-    margin-bottom: 11%;
-    height: 10%;
     }
- }
 
-@media(min-width:768px) and (max-width:768px)  {
-    
-.gallery-photos {
-    width: 90% !important;
-    margin-bottom: 9%;
-    margin-top: 10%;
-    height: 10%;
-}    
 
-.photos {
-    width: 45% !important;
-    margin-top: 9%;
-    margin-bottom: 0%;
-    margin-left: 2%;
-}    
+    .photos-2 {
+        margin-top: -9px;
+        margin-left: 10px;
+    }
 
-.photos-2 {
-    width: 45%!important;
-    margin-top: -92%;
-    margin-left: 52%;
+    .gallery-photos {
+        width: 45%!important;
+        margin-left: 20%;
+        margin-top: -4%;
+        margin-bottom: 11%;
+        height: 10%;
+    }
 }
 
+@media(min-width:768px) and (max-width:768px) {
+
+    .gallery-photos {
+        width: 90% !important;
+        margin-bottom: 9%;
+        margin-top: 10%;
+        height: 10%;
+    }
+
+    .photos {
+        width: 45% !important;
+        margin-top: 9%;
+        margin-bottom: 0%;
+        margin-left: 2%;
+    }
+
+    .photos-2 {
+        width: 45%!important;
+        margin-top: -92%;
+        margin-left: 52%;
+    }
+
+}
+
+/*----------------Heading Query-------------*/
+
+@media(min-width:768px) {
+    .main-heading {
+        font-size: 70px;
+    }
+}
+
+@media(max-width:1024px) {
+    .song-heading {
+        margin-bottom:30px;
+    }
+}
+@media(max-width:500px) {
+    
+    .album {
+        left:12%;
+        font-size:15px;
+        margin-top:10%;
+    }
+    
+    .album-covers {
+        width:50%;
+    }
+    
+    .album-covers-2 {
+        height:80px;
+    }
 }
