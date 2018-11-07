@@ -19,28 +19,32 @@ body {
     background-color: rgba(0,0,0,0.8)
 }
 
-.band-schedule table thead {
+.bg-band-schedule table thead {
     background-color: #b30000;
     }
 
-.band-schedule table tbody {
+.bg-band-schedule table tbody {
     background-color: #ffffff;
      }
 
-.band-schedule {
+.bg-band-schedule {
 background-color:rgba(0,0,0,0.8);
 }
 
-.first {
+.bg-first {
 background-color: #1a75ff;
 }
 
-.second {
+.bg-second {
     background-color: #b30000;
 }
 
-.headings-band {
-    background-color: rgba(255, 134, 131, 0.2);
+.bg-headings-band {
+    background-color: rgba(0, 105, 255, 0.2);
+}
+
+.bg-hire-us {
+ background-color: rgba(0, 0, 0, 0.6)   
 }
 /*---------------------------------------------------------headings--*/
 
@@ -103,12 +107,12 @@ background-color: #1a75ff;
 
 /*-----------------------------Band Schedule Table-------------*/
 
-.band-schedule {
+.bg-band-schedule {
     margin-top:25%!important;
     margin-bottom:25%!important;
 }
 
-.band-schedule table thead  {
+.bg-band-schedule table thead  {
     color:#ffffff;
     font-family: 'EXO';
     font-weight: 800;
@@ -116,7 +120,7 @@ background-color: #1a75ff;
     
 }
 
-.band-schedule table tbody {
+.bg-band-schedule table tbody {
     font-family: 'EXO';
     font-weight: 800;
     font-size: 14px;
@@ -125,7 +129,7 @@ background-color: #1a75ff;
     
     }
 
-.band-schedule th {
+.bg-band-schedule th {
     text-align: center;
     }        
     
@@ -350,6 +354,61 @@ background-color: #1a75ff;
     margin-left:9%;
    
     }
+    
+    
+    
+/*--------------------------Forms------------*/
+
+.form-group {
+    font-family: 'Righteous' , 'sans-serif';
+    color:#1a1aff;
+    font-size: 20px;
+    font-weight:600;
+    line-height: 30px;
+    letter-spacing: 2px;
+    left:23%;
+    
+}    
+.text-muted {
+    font-family: 'Righteous' , 'sans-serif';
+    color:#1a1aff;
+    font-size: 15px;
+    font-weight:600;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+
+.main-form {
+    width:80%;
+    top: 124%;
+    left: 18%;
+    height: 57%;
+    }
+
+.form-heading {
+    font-family: 'Exo' , 'sans-serif';
+    color: #e30000;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top:104px;
+    left: 38%;
+}
+    
+ .submit-button {
+    background-color: #000099;
+    position: absolute;
+    left: 40%;
+} 
+
+.bg-hire-us {
+    position: absolute;
+    top: 127%;
+    height: 58%;
+    left: 19%;
+}
+    
 
 /*-----------------------------------Media Query--*/
 
@@ -470,7 +529,7 @@ background-color: #1a75ff;
 
 .member-photos {
     margin-top:40%;
-    margin-left:20%;
+    margin-left:-7%;
 }
 
 
@@ -497,7 +556,7 @@ background-color: #1a75ff;
     margin-top: 100px;
 }
 
-.headings-band {
+.bg-headings-band {
     padding-top: 65px;
     margin-left: -10px;
     width: 113%;
@@ -627,7 +686,7 @@ background-color: #1a75ff;
 
 @media (min-width:300px) and (max-width:500px) {
     
-    .band-schedule {
+    .bg-band-schedule {
     margin-top: 152%!important;
     margin-bottom: 25%!important;
 }
@@ -672,7 +731,7 @@ background-color: #1a75ff;
     font-size: 21px;
 }
 
-.band-schedule {
+.bg-band-schedule {
     margin-top: 140%;
     margin-bottom: 25%;
 }
@@ -710,7 +769,7 @@ background-color: #1a75ff;
     left: 6%;
 }
 
-.band-schedule {
+.bg-band-schedule {
     margin-top: 58%!important;
     margin-bottom: 25%!important;
 }
