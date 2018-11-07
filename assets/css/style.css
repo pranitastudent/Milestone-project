@@ -7,9 +7,39 @@ body {
 }
 
 
-/*---------------------------------------------------------header--*/
+/*-------------------------------------------------------background colors---*/
 
-/*---------------------------------------------------------heading--*/
+.semi-transparent {
+    background-color: rgba(0,0,0,0.8);
+    padding:100px;
+    margin:10% 20%;
+    }
+
+.main-quote {
+    background-color: rgba(0,0,0,0.8)
+}
+
+.band-schedule table thead {
+    background-color: #b30000;
+    }
+
+.band-schedule table tbody {
+    background-color: #ffffff;
+     }
+
+.band-schedule {
+background-color:rgba(0,0,0,0.8);
+}
+
+.first {
+background-color: #1a75ff;
+}
+
+.second {
+    background-color: #b30000;
+}
+
+/*---------------------------------------------------------headings--*/
 
 .main-heading {
     color: #ffffff;
@@ -28,6 +58,90 @@ body {
 
 }
 
+/*-------------------------------------------------------Main Quote---*/
+.main-quote {
+    font-family: 'Righteous';
+    font-size: 20px;
+    color:#ffffff;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    right: 20%;
+    border-left-width:5px;
+    margin-top:60px;
+    left:20%;
+     
+}
+
+.citation {
+    font-family:'Righteous';
+    font-family:10px;
+    color:#ffffff;
+}
+
+.happy-jack {
+    font-family:'Righteous';
+    font-size:35px;
+    color:#ffffff;
+    position: absolute;
+    top: 132%;
+    left: 35%;
+  }
+
+/*----------------------Tour Date-----------------*/
+
+.tour-dates {
+    font-family: 'Righteous';
+    font-size: 40px;
+    text-align: center;
+    color:#ffffff;
+}
+
+/*-----------------------------Band Schedule Table-------------*/
+
+.band-schedule {
+    margin-top:25%!important;
+    margin-bottom:25%!important;
+}
+
+.band-schedule table thead  {
+    color:#ffffff;
+    font-family: 'EXO';
+    font-weight: 800;
+    font-size: 14px;
+    
+}
+
+.band-schedule table tbody {
+    font-family: 'EXO';
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    color:#000000;
+    
+    }
+
+.band-schedule th {
+    text-align: center;
+    }        
+    
+.availability-tickets {
+    text-align:center;
+    font-family: 'EXO';
+    font-weight: 800;
+    font-size: 14px;
+    color:#000000;
+    }  
+    
+
+.table tr,th,td {
+    border: 5px solid black;
+}
+
+
+
+
 /*----------------------------------------------------------navbar--*/
 
 .navbar-brand {
@@ -36,7 +150,7 @@ body {
 }
 
 .navbar-inverse {
-    background-color: #000000;
+    background-color:#000000 !important;
     border-bottom: none;
     margin: 0;
 
@@ -45,10 +159,11 @@ body {
 .navbar-collapse {
     position: relative;
     z-index: 99;
-
-
 }
 
+.navbar-right {
+    margin-right: 30px !important;
+}
 
 /*--------------------------------------------------------Icon bar and toggle--*/
 
@@ -135,6 +250,10 @@ body {
 
 .nav a:hover {
     color: #0047b3;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 /*------------------------------------------------------------Photos---*/
@@ -207,23 +326,26 @@ body {
 
 .main-video {
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    top: 144%;
+    left: 19%;
+    width: 62%;
+    height:45%;
 
 }
 
 .videos {
     position: relative;
     margin-top: 102px;
-    margin-left: 220px;
+    margin-left:9%;
+    
     }
 
 
 .videos-2 {
     position: relative;
     margin-top: 200px;
-    margin-left: 220px;
+    margin-left:9%;
+   
     }
 
 /*-----------------------------------Media Query--*/
@@ -272,19 +394,15 @@ body {
 }
 
 
-@media(max-width:1024px) {
-    .main-video {
-        top: 30%;
-        width: 70%;
-    }
-}
+
+
 
 
 /*------------------------Photos Media Query-----*/
 
 @media(min-width:300px) and (max-width:767px) {
     .photos {
-        margin-top: 6%;
+        margin-top: 9%;
         margin-bottom: 2%;
         margin-left: 10px;
 
@@ -297,14 +415,18 @@ body {
     }
 
     .gallery-photos {
-        width: 45%!important;
-        margin-left: 20%;
-        margin-top: -4%;
+        width: 44%!important;
+        margin-left: 27%;
+        margin-top: -6%;
         margin-bottom: 11%;
         height: 10%;
     }
+
+    
 }
 
+
+/*--------------------------------Photos----------------*/    
 @media(min-width:768px) and (max-width:768px) {
 
     .gallery-photos {
@@ -364,14 +486,14 @@ body {
     .videos {
         margin-top: 6%;
         margin-bottom: 2%;
-        margin-left: 15%;
+        
 
     }
 
 
     .videos-2 {
         margin-top: -9px;
-        margin-left: 15%
+        
     }
     
     .clips {
@@ -381,6 +503,12 @@ body {
     margin-bottom: 11%;
     height: 10%;
 }
+}
+
+@media(min-width:375px) and (max-width:375px) {
+    .videos {
+        margin-top: 5%;
+    }
 }
 
 @media(min-width:768px) and (max-width:1024px) {
@@ -394,12 +522,167 @@ body {
  .videos {
         margin-top: 12%;
         margin-bottom: 2%;
-        margin-left:12%;
+       
        
 
     }
 
 .videos-2 {
         margin-top: 3%;
-       margin-left:12%;
+     
     }
+
+/*--------------Images Media Queries-----------*/
+ 
+ @media(min-width:360px) {
+.images {
+    height:200vh; 
+}
+}
+
+ @media(min-width:411px) {
+.images {
+    height:180vh !important;
+}
+ }
+
+ @media(min-width:320px) and (max-width:500px)
+ {
+.images {
+    height:220vh !important;
+}
+ }
+
+ @media(min-width:375px) {
+
+ .images {
+     height:150vh;
+ }
+}
+
+
+
+
+/*-----------------------------------------------Logo Media Query-----*/
+
+@media (min-width:768px) {
+    .logo-brand {
+        position:absolute;
+        bottom:80%;
+    }
+}
+
+/*-------------------------------------- Band Schedule, Jumbotron and Main Video Media Queries-------*/
+
+@media (min-width:300px) and (max-width:500px) {
+    
+    .band-schedule {
+    margin-top: 152%!important;
+    margin-bottom: 25%!important;
+}
+
+.happy-jack {
+    font-family: 'Righteous';
+    font-size: 35px;
+    color: #ffffff;
+    position: absolute;
+    top: 174%;
+    left: 6%;
+}
+
+.main-video {
+    position: absolute;
+    top: 196%;
+    left: 5%;
+    width: 90%;
+    height: 45%;
+}
+
+}
+
+@media (min-width:320px) and (max-width:320px) {
+    
+.main-quote {
+    font-family: 'Righteous';
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    right: 20%;
+    border-left-width: 5px;
+    margin-top: 25px;
+    left: 20%;
+}
+
+
+.quote {
+    font-size: 21px;
+}
+
+.band-schedule {
+    margin-top: 140%;
+    margin-bottom: 25%;
+}
+
+.happy-jack {
+    font-family: 'Righteous';
+    font-size: 35px;
+    color: #ffffff;
+    position: absolute;
+    top: 178%;
+    left: 6%;
+}
+
+.main-video {
+    position: absolute;
+    top: 204%;
+    left: 5%;
+    width: 90%;
+    height: 45%;
+}
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .main-quote {
+    font-family: 'Righteous';
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    right: 6%;
+    border-left-width: 5px;
+    margin-top: 60px;
+    left: 6%;
+}
+
+.band-schedule {
+    margin-top: 58%!important;
+    margin-bottom: 25%!important;
+}
+
+.main-video {
+    position: absolute;
+    top: 144%;
+    width: 93%;
+    left:4%;
+    height: 30%;
+}
+
+
+.happy-jack {
+    font-family: 'Righteous';
+    font-size: 35px;
+    color: #ffffff;
+    position: absolute;
+    top: 132%;
+    left:4%;
+     
+}
+
+
+}
+
