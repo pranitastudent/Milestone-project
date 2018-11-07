@@ -39,6 +39,9 @@ background-color: #1a75ff;
     background-color: #b30000;
 }
 
+.headings-band {
+    background-color: rgba(255, 134, 131, 0.2);
+}
 /*---------------------------------------------------------headings--*/
 
 .main-heading {
@@ -451,6 +454,54 @@ background-color: #1a75ff;
 
 }
 
+
+/***************Band Members----------------*/
+
+.member-heading {
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Righteous', 'sans-serif';
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 10px;
+    margin-top:5%;
+}
+
+.member-photos {
+    margin-top:40%;
+    margin-left:20%;
+}
+
+
+.band-images {
+    margin-left:35px;
+}
+
+
+.member-description {
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Righteous', 'sans-serif';
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-right: -155px;
+    margin-left: -39px;
+}
+
+.band-members {
+    
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 100px;
+}
+
+.headings-band {
+    padding-top: 65px;
+    margin-left: -10px;
+    width: 113%;
+}
 /*----------------Heading Query-------------*/
 
 @media(min-width:768px) {
