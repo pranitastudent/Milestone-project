@@ -35,6 +35,7 @@ background-color: #1a75ff;
 
 .bg-headings-band {
     background-color: rgba(0, 105, 255, 0.2);
+    margin-top:30px;
 }
 
 .bg-hire-us {
@@ -56,6 +57,7 @@ background-color: #1a75ff;
     font-weight: 800;
     font-size: 35px;
     text-align: center;
+    margin-bottom: 42px;
 
 }
 
@@ -263,14 +265,15 @@ background-color: #1a75ff;
 
     width: 100% !important;
     margin-top: 6%;
-    margin-left: 10px;
+    margin-left: 33px;
 
 
 }
 
 .photos-2 {
+    width: 100% !important;
     margin-top: 20%;
-    margin-left: 10px;
+    margin-left: 33px;
 }
 
 .gallery-photos {
@@ -291,9 +294,9 @@ background-color: #1a75ff;
     -o-background-size: cover;
 }
 
-.album {
+.album-2 {
     font-family: 'Righteous';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: #ff1a1a;
     letter-spacing: 2px;
@@ -305,9 +308,11 @@ background-color: #1a75ff;
     width:60%;
     height:166px;
 
-
 }
 
+.album-1 {
+    right:-16%;
+}
 
 
 /*----------------------------------------Footer--*/
@@ -340,7 +345,7 @@ background-color: #1a75ff;
 .videos {
     position: relative;
     margin-top: 102px;
-    margin-left:9%;
+    margin-left:3%;
 
     }
 
@@ -348,14 +353,60 @@ background-color: #1a75ff;
 .videos-2 {
     position: relative;
     margin-top: 20%;
-    margin-left:9%;
+    margin-left:3%;
 
     }
 
     .clips {
-        width:400px;
-        height:200px;
+        width:500px;
+        height:250px;
     }
+
+
+/***************Band Members----------------*/
+
+.member-heading {
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Righteous', 'sans-serif';
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 10px;
+    margin-top:5%;
+}
+
+.member-photos {
+    margin-top:40%;
+    margin-left:-18%;
+}
+
+
+.band-images {
+    margin-left:35px;
+}
+
+
+.member-description {
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Righteous', 'sans-serif';
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-right: -155px;
+    margin-left: -145px;
+}
+
+.band-members {
+
+    display: flex;
+    justify-content:center;
+
+}
+
+
+
 
 
 
@@ -400,17 +451,14 @@ background-color: #1a75ff;
 
  .submit-button {
     background-color: #000099;
-    position: absolute;
-    left: 20%;
+
 }
 
 .bg-hire-us {
-    position: absolute;
-    top: 127%;
-    height: 58%;
-    left: 19%;
-}
+    margin-top: 82px;
+    padding: 82px;
 
+}
 
 /*-----------------------------------Media Query--*/
 
@@ -435,11 +483,7 @@ background-color: #1a75ff;
 }
 
 
-@media(min-width:768px) and (max-width:1024px) {
-    .navbar-right {
-        margin: 80px !important;
-    }
-}
+
 
 
 @media(min-width:1460px) {
@@ -459,53 +503,6 @@ background-color: #1a75ff;
 
 
 
-/***************Band Members----------------*/
-
-.member-heading {
-    text-align: center;
-    color:#ffffff;
-    font-family: 'Righteous', 'sans-serif';
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 10px;
-    margin-top:5%;
-}
-
-.member-photos {
-    margin-top:40%;
-    margin-left:-7%;
-}
-
-
-.band-images {
-    margin-left:35px;
-}
-
-
-.member-description {
-    text-align: center;
-    color:#ffffff;
-    font-family: 'Righteous', 'sans-serif';
-    font-size: 20px;
-    font-weight: 800;
-    margin-top: 20px;
-    margin-right: -155px;
-    margin-left: -145px;
-}
-
-.band-members {
-
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-top: 100px;
-}
-
-.bg-headings-band {
-    padding-top: 65px;
-    margin-left: -10px;
-    width: 113%;
-}
 
 
 
@@ -513,9 +510,9 @@ background-color: #1a75ff;
 
 @media(min-width:300px) and (max-width:767px) {
     .photos {
-        margin-top: 9%;
-        margin-bottom: 2%;
-        margin-left: 10px;
+      margin-top: 28%;
+      margin-bottom: 0%;
+      margin-left: 10px;
 
     }
 
@@ -526,11 +523,11 @@ background-color: #1a75ff;
     }
 
     .gallery-photos {
-        width: 44%!important;
-        margin-left: 27%;
-        margin-top: -6%;
-        margin-bottom: 11%;
-        height: 10%;
+     width: 71%!important;
+    margin-left: 12%;
+    margin-top: 7%;
+    margin-bottom: 11%;
+    height: 10%;
     }
 
 
@@ -691,7 +688,7 @@ background-color: #1a75ff;
 
 }
 
-@media (min-width:320px) and (max-width:320px) {
+@media (min-width:320px) and (max-width:350px) {
 
 .main-quote {
     font-family: 'Righteous';
@@ -713,7 +710,7 @@ background-color: #1a75ff;
 }
 
 .bg-band-schedule {
-    margin-top: 140%;
+    margin-top: 122% !important;
     margin-bottom: 25%;
 }
 
@@ -722,14 +719,14 @@ background-color: #1a75ff;
     font-size: 35px;
     color: #ffffff;
     position: absolute;
-    top: 178%;
+    top: 174%;
     left: 6%;
 }
 
 .main-video {
     position: absolute;
     top: 204%;
-    left: 5%;
+    left: 7%;
     width: 90%;
     height: 45%;
 }
@@ -777,265 +774,17 @@ background-color: #1a75ff;
 
 }
 
-/*---------------Band Members and Form Media Queries------------*/
+@media (max-width: 500px) and (min-width: 320px){
 
-@media (min-width:360px) and (max-width:500px) {
-
-.band-members {
-
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    position: absolute;
-    padding-right: 51px;
-    right: -11%;
-}
-
-
-.member-description {
-    margin-top: 3px;
-    margin-right: -61px;
-    margin-left: -348px;
-    font-size: 14px
-}
-
-.bg-headings-band {
-    margin:0%;
-    padding-top:6%;
-
-
-}
-
-.member-photos{
-    margin-top: 0%;
-    margin-left: -6%;
-    width: 25%;
-}
-
-.photos-box {
-    padding-left:15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width:100% !important;
-
-}
-
-.member-heading {
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Righteous', 'sans-serif';
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 11px;
-    margin-top: 1%;
-    margin-left: -5%
-}
-
-.band-images {
-    margin-left: 120px;
-}
-
-.main-form {
-    width: 12%;
-    top: -22%;
-    left: 44%;
-
-}
-
- .bg-hire-us {
-    position: absolute;
-    top: 160%;
-    height: 88%;
-    left: 0%;
-
-}
-
-.form-heading  {
-    font-family: 'Exo' , 'sans-serif';
-    color: #e30000;
-    font-size: 41px;
-    font-weight: 800;
-    line-height: 30px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    left: 2%;
-}
-
-.form-group {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 2px;
-    left: 7%;
-    margin-bottom: 21px;
-}
-.submit-button {
-    left:4%;
-}
-
-
-}
-
-
-@media(min-width:768px) and (max-width:1024px) {
-    .band-members {
-    margin-right: -15px;
-    margin-left: -35px;
-    margin-top: -2px;
-}
-
-.band-images {
-    margin-left:18px;
-}
-
-.bg-headings-band {
-    padding-top: 65px;
-    padding-left: 34px;
-    margin-left: 13px;
-    position: absolute;
-    left: -2%;
-    width: 100%;
-}
-.member-photos {
-    margin-top: 40%;
-    margin-left: -7%;
-    width:100%;
-}
-
-.member-heading {
-      left: -9%;
-}
-
-.member-descriptions {
-    margin-left:-155px;
-}
-.main-form {
-    width: 83%;
-    top: 124%;
-    left: 18%;
-    height: 65%;
+.images-contact {
+    height: 500vh !important;
 }
 
 .bg-hire-us {
-    padding-right: 15px;
-    margin:0px;
-    right: 0px;
-    padding-left: 15px;
-    left: 0%;
-    width: 100%;
-}
+    margin-top: 82px;
+    margin-left:0;
+    padding: 10px 10px;
+    width: 124%;
 }
 
-.form-heading {
-    margin-top: 110px;
-    margin-bottom: 70px;
-    left: 2%;
-}
-
-.form-group {
-    left:2%;
-}
-
-.submit-button {
-   left:5%;
-
-}
-
-@media(min-width:320px) and (max-width:350px) {
-
- .band-members {
-
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    position: absolute;
-    padding-right: 51px;
-    right: -11%;
-}
-
-
-.member-description {
-    margin-top: 3px;
-    margin-right: -61px;
-    margin-left: -328px;
-    font-size: 14px
-}
-
-.bg-headings-band {
-    margin:0%;
-    padding-top:6%;
-
-
-}
-
-.member-photos{
-    margin-top: 0%;
-    margin-left: -6%;
-    width: 19%;
-}
-
-.photos-box {
-    padding-left:15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width:100% !important;
-
-}
-
-.member-heading {
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Righteous', 'sans-serif';
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 11px;
-    margin-top: 1%;
-    margin-left: -5%
-}
-
-.band-images {
-    margin-left: 120px;
-}
-
-.main-form {
-    width: 12%;
-    top: -22%;
-    left: 44%;
-
-}
-
- .bg-hire-us {
-    position: absolute;
-    top: 156%;
-    height: 88%;
-    left: 0%;
-
-}
-
-.form-heading  {
-    font-family: 'Exo' , 'sans-serif';
-    color: #e30000;
-    font-size: 41px;
-    font-weight: 800;
-    line-height: 30px;
-    margin-top: 43px;
-    margin-bottom: 70px;
-    left: 2%;
-}
-
-.form-group {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 2px;
-    left: 7%;
-    margin-bottom: 21px;
-}
-.submit-button {
-    left:4%;
-}
 }

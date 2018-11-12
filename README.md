@@ -43,7 +43,7 @@ The website contains five pages; Home Page, Gallery, Audio, Video and Hire Us pa
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"> HTML5 </a></li> HTML 5 was used to create the structure of webpage with the neccessary elements
 <li><a href="https://www.w3.org/Style/CSS/Overview.en.html"> CSS3 </a></li> CSS3 was used to write custom css style the webpage with the necessay attributes.
 <li><a href="https://getbootstrap.com/"> Bootstrap </a> </li>  The Bootstrap framework is used to style the webpage alongside custom css and the grid system is adhered to.
-<li><a href="https://www.javascript.com/"> Javascript </a> </li> Javascript was used to create the collapsible navbar in toggle mode for mobile devices.
+<li><a href="https://jquery.com/"> Jquery </a> </li> Jquery was used to create the collapsible navbar in toggle mode for mobile devices.
 </ul>
 
 ## Testing and Validating
@@ -51,20 +51,31 @@ The website contains five pages; Home Page, Gallery, Audio, Video and Hire Us pa
 The HTML and CSS3 codes were validated on WSC validator and no syntax errors were found. The website was tested at various screen sizes which include mobile and tablet devices. I found  that it was difficult to contain in the container on iPhone 5.
 The Hire Us contact form was filled out by me to check that the form is not sent till all teh required fields are completed and an valid email address is inputted.
 
+The website has been found to be fully functional and has been tested on the following browsers :
+
+<ul>
+<li> Google Chrome </li>
+<li> Microsoft Edge </li>
+<li> Mozilla Firefox </li>
+<li> Opera </li>
+</ul>
+
+
+
 ## Deployment
 
-The site was deployed pn Github and locally on Cloud 9.
+The site was deployed on Github and locally on Cloud 9.
 
 ## Credits
 
-###<strong> Content </strong>
+### Content
 
 The basic design for the header, footer and contact form sections was taken from the Code Institute's Resume and bootstrap lectures.
 
-### <strong> Media </strong>
+### Media
 
 
-##### Background Images
+##### Background Image
 
 The background image was taken from <a href= "https://en.wikipedia.org/wiki/The_Who"> The Who's' Wikepedia Page </a>
 
