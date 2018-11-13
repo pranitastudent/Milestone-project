@@ -17,7 +17,9 @@ The website aims to inform users of when tours are taking place for the band and
 ## Wireframes
 
 My wireframes for the project were created on Balsamiq Mock Ups 3 software. The wireframes are saved as a pdf file. Each wireframe contains two mock-ups; one for desktops and laptops and one for mobiles in order to enable responsive design.
-<a href=/assets/images/WHO.pdf>Wireframes</a>
+
+[Homepage]()
+
 
 ##  Features
 The website contains five pages; Home Page, Gallery, Audio, Video and Hire Us pages. All five pages contain the same header and footer element with the ; logo, social links and copyright message to maintain consistency of design throughout. All of the webpages also have the same background image of 'The WHO' for consistency as well.
@@ -83,17 +85,21 @@ The background image was taken from <a href= "https://en.wikipedia.org/wiki/The_
 
 The photos from left to right were taken from :
 
-1)https://www.express.co.uk/entertainment/music/460948/Doug-Sandom-Leaving-The-Who-was-the-biggest-mistake-of-my-life
+<ol>
 
-2)https://www.vg247.com/2009/10/27/rumor-roger-daltrey-outs-possible-the-who-rock-band/
+<li> https://www.express.co.uk/entertainment/music/460948/Doug-Sandom-Leaving-The-Who-was-the-biggest-mistake-of-my-life </li>
 
-3) http://www.lovethispic.com/image/29493/the-who-rock-band
+<li> https://www.vg247.com/2009/10/27/rumor-roger-daltrey-outs-possible-the-who-rock-band/ </li>
 
-4)https://www.morrisonhotelgallery.com/collections/bkBB28/The-Who
+<li>  http://www.lovethispic.com/image/29493/the-who-rock-band </li>
 
-5) https://www.amazon.co.uk/The-Who/e/B000APYN9Y
+<li> https://www.morrisonhotelgallery.com/collections/bkBB28/The-Who </li>
 
-6>http://disney.wikia.com/wiki/File:The_who.jpg
+<li>  https://www.amazon.co.uk/The-Who/e/B000APYN9Y </li>
+
+<li> http://disney.wikia.com/wiki/File:The_who.jpg </li>
+
+</ol>
 
 ##### Videos
 
