@@ -15,38 +15,42 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header"></div>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
-        <span class="sr-only">Toggle Navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-
-            <a class="navbar-brand logo-brand" href="home.html"><img class="logo" src="assets/images/the-who-logo.jpg" alt="logo"></a>
-        </div>
-        <h1 class="col-md-12 col-sm-12 col-xs-12 main-heading">THE WHO</h1>
-        <div class="collapse navbar-collapse" id="mainNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><i class="fa fa-home icons" aria-hidden="true"><a class="list-items" href="index.html">Home</a></i></li>
-                <li><i class="fa fa-camera icons" aria-hidden="true"><a class="list-items" href="gallery.html">Gallery</a></i></li>
-                <li><i class="fa fa-headphones icons" aria-hidden="true"><a class="list-items" href="audio.html">Audio</a></i></li>
-                <li><i class="fa fa-youtube icons" aria-hidden="true"><a class="list-items" href="video.html">Video</a></i></li>
-                <li><i class="fa fa-comments icons" aria-hidden="true"><a class="list-items" href="contact.html">Hire Us!</a></i></li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <div class="container-fluid images images-contact">
-        <div class="container-fluid bg-headings-band" style="width:85%">
-            <h3 class="member-heading"><strong>The WHO band members</strong></h3>
-            <h3 class="member-heading"><strong>Let us entertain you....</strong></h3><br><br>
+    <!-- Header and Navigation bar -->
+    <header>
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
-                <div class="row" style="margin-left:0; margin-right:0; overflow-x:hidden">
+                <div class="navbar-header"></div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
+                <a class="navbar-brand logo-brand" href="index.html"><img class="logo" src="assets/images/the-who-logo.jpg" alt="logo"></a>
+            </div>
+            <h1 class="col-md-12 col-sm-12 col-xs-12 main-heading">The Who</h1>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><i class="fa fa-home icons" aria-hidden="true"><a class="list-items" href="index.html">Home</a></i></li>
+                    <li><i class="fa fa-camera icons" aria-hidden="true"><a class="list-items" href="gallery.html">Gallery</a></i></li>
+                    <li><i class="fa fa-headphones icons" aria-hidden="true"><a class="list-items" href="audio.html">Audio</a></i></li>
+                    <li><i class="fa fa-youtube icons" aria-hidden="true"><a class="list-items" href="video.html">Video</a></i></li>
+                    <li><i class="fa fa-comments icons" aria-hidden="true"><a class="list-items" href="contact.html">Hire Us!</a></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Band Members -->
+    <div class="container-fluid images images-contact">
+        <div class="container bg-headings-band">
+            <h3 class="member-heading"><strong>The Who band members</strong></h3>
+            <h3 class="member-heading"><strong>Let us entertain you....</strong></h3>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row" style="margin-left:0; margin-right:0; overflow-x:hidden">
                     <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-12">
                         <div class="band-members">
                             <img class="img-circle" src="assets/images/peter-townshead.jpg" alt="peter townshead">
@@ -77,20 +81,15 @@
                         </div>
                         <h5 class="member-description">John Entiwhistle <br> Bass Guitarist</h5>
                     </div>
-
                 </div>
-
             </div>
         </div>
 
+        <!-- Form adapted from Resume Project -->
         <div class="container">
-
-            <!--Form adapted form Resume Project-->
-
             <form class="main-form">
                 <div class="container-fluid bg-hire-us">
                     <h2 class="form-heading">Hire us now for all your events....</h2>
-
                     <div class="form-group">
                         <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Full Name" required/>
                     </div>
@@ -99,23 +98,17 @@
                         <small id="emailHelp" class="form-group text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message" required/></textarea>
+                        <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message" required></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-danger submit-button centre-block">Submit</button>
                     </div>
                 </div>
             </form>
-
         </div>
-
-
-
-
     </div>
 
-
-
+    <!-- Footer -->
     <footer class="container-fluid footer-container">
         <div id="footer" class="row">
             <div class="col-xs-3 col-sm-3">
@@ -135,10 +128,8 @@
         </div>
     </footer>
 
+    <!-- JQuery for drop down navigation bar -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
 </body>
-
-</html>

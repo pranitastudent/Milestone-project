@@ -7,7 +7,7 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.main-quote {
+.bg-main-quote {
     background-color:rgba(0, 105, 255, 0.2);
     border:3px solid #ffffff;
 }
@@ -24,6 +24,10 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.bg-happy-jack {
+     background-color: rgba(0, 0, 0, 0.8);
+}
+
 .bg-first {
     background-color: #1a75ff;
 }
@@ -34,6 +38,7 @@
 
 .bg-headings-band {
     background-color: rgba(0, 105, 255, 0.2);
+
 
 }
 
@@ -56,15 +61,24 @@
     font-family: 'Righteous';
     font-weight: 800;
     font-size: 35px;
+    letter-spacing:2px;
     text-align: center;
     margin-bottom: 42px;
     padding-top: 30px;
 
 }
 
+.bg-happy-jack {
+    margin-top:100px;
+}
+
 /*-------------------------------------------------------Main Quote---*/
 
-.main-quote {
+.bg-main-quote {
+    margin-top:30px;
+}
+
+.opinion-quote {
     font-family: 'Righteous';
     font-size: 20px;
     color: #ffffff;
@@ -73,8 +87,7 @@
     padding-right: 100px;
     right: 20%;
     border-left-width: 5px;
-    margin-top: 40px;
-    width: 103%
+    margin-top: 30px;
 }
 
 .citation {
@@ -103,7 +116,7 @@
 /*-----------------------------Band Schedule Table-------------*/
 
 .bg-band-schedule {
-    margin-top: 10%!important;
+    margin-top: 7%!important;
 
 }
 
@@ -343,7 +356,9 @@ td {
 .main-video {
    margin-bottom: 29px;
    width: 100%;
-   height: 300px;
+   height: 400px;
+   border: 0;
+
 
 }
 
@@ -362,9 +377,10 @@ td {
 
 .clips {
     width: 90% !important;
-    height: 250px;
+    height: 320px;
     margin-top: 55px;
     margin-left: 21px;
+    border:0;
 }
 
 .song-descriptions {
@@ -375,8 +391,8 @@ td {
     word-spacing: 10px;
     width: 200px;
     padding-top: 20px;
-
-}
+    border: 0;
+    }
 
 .bg-semi-transparent {
     margin-top: 30px;
@@ -395,7 +411,7 @@ td {
     text-align: center;
     color: #ffffff;
     font-family: 'Righteous', 'sans-serif';
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 10px;
@@ -410,18 +426,19 @@ td {
 
 .band-images {
     margin-left: 35px;
-}
+    }
 
 
 .member-description {
     text-align: center;
     color: #ffffff;
     font-family: 'Righteous', 'sans-serif';
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
     margin-top: 20px;
     margin-right: -155px;
     margin-left: -145px;
+    letter-spacing: 1px;
 }
 
 .band-members {
@@ -429,6 +446,11 @@ td {
     display: flex;
     justify-content: center;
 
+}
+
+.img-circle {
+        border: 3px solid #ffffff;
+        height:143px;
 }
 
 .bg-hire-us {
@@ -449,8 +471,10 @@ td {
     line-height: 30px;
     letter-spacing: 2px;
     left: 23%;
+    width:70%;
+    margin-left:16%;
+    }
 
-}
 
 .text-muted {
 
@@ -459,12 +483,13 @@ td {
     font-weight: 600;
     line-height: 30px;
     letter-spacing: 5px;
+    margin:0;
 
 }
 
 
 .main-form {
-    width: 80%;
+    width: 70%;
     top: 124%;
     left: 18%;
 }
@@ -473,10 +498,10 @@ td {
 
     font-family: 'Exo', 'sans-serif';
     color: #e30000;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 43px;
-    margin-top: 33px;
+    margin-left: 20px;
     margin-bottom: 70px;
     letter-spacing: 5px;
     text-align: center;
@@ -499,7 +524,7 @@ td {
         width: 90px;
         height: 50px;
         padding-bottom: 10px;
-        margin: 0px;
+        margin-left:-15px;
     }
 
 }
@@ -512,6 +537,14 @@ td {
         margin-top: 20px;
     }
 
+}
+
+/*-------------- Opinion Quote Query------------*/
+@media(max-width:767px) {
+.opinion-quote {
+    padding:0 50px;
+    margin:0;
+ }
 }
 
 
@@ -571,6 +604,12 @@ td {
 
 }
 }
+@media(max-width:767px) {
+
+.song-heading {
+    font-size: 30px;
+}
+}
 
 
 /*----------------Heading Query-------------*/
@@ -581,6 +620,11 @@ td {
     }
 }
 
+@media(max-width:767px) {
+   .happy-jack {
+       font-size:30px;
+   }
+}
 /*-------------------Songs Query-----------*/
 
 @media(min-width:768px) {
@@ -598,7 +642,9 @@ td {
 
     .song-descriptions {
         padding-top: 6px;
-        margin-left: 39px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -635,13 +681,13 @@ td {
 
     .clips {
     width: 90% !important;
-    margin-top: 55px;
-    margin-left: 21px;
-    height:125px;
+    margin-top: 30px;
+    margin-left: 19px;
+    height:200px;
     }
 
     .main-video {
-        height:125px;
+        height:188px;
     }
 }
 
@@ -661,25 +707,20 @@ td {
     }
 }
 
-/*----------------------------------Band Members Queries--*/
-
-@media (min-width:768px) and (max-width:1366px) {
-.bg-headings-band {
-    width:95% !important;
-}
-}
-
 /*-------------------------------------------------Forms Query------------*/
 
 @media(min-width:300px) and (max-width:767px) {
+
+.main-form {
+    width:80%;
+}
 
 .form-heading {
     font-size:35px;
     margin-top: 36px;
     margin-bottom: 70px;
+    margin-left:0;
     letter-spacing:6px;
-
-
 }
 }
 
@@ -699,7 +740,7 @@ td {
 
 @media(min-width:320px) and (max-width:500px) {
     .images {
-        height: 220vh !important;
+        height: 273vh !important;
     }
 }
 
