@@ -104,7 +104,7 @@ The site was deployed on GitHub and locally on Cloud 9.
 
 <strong> Please note in error two initial commits were commited on the 28th and 29th October respectively.</strong> The 'initial commit' on 29th October should read 'Navigation bar and fontawesome icons added'.
 
-Please also note on 20th November there was a merge conflict between the updated html and css pages and 'updated video heights and form filed sizes' and as result extra commits were added.
+Please also note on 20th November there was a merge conflict between the updated html and css pages and 'updated video heights and form field sizes' and as result extra commits were added due an error in contact.html file which was depoyed locally in Cloud 9.
    
 ## Credits
 
