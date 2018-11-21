@@ -1,7 +1,7 @@
 [Deployed Website](https://pranitastudent.github.io/Milestone-project/)
 
 
-# 'THE WHO'- First Milestone Project
+# 'The Who'- First Milestone Project
 The aim of the 'User Centric' end of module project was to create a website for a band based in 1960's. The website should reflect coding skills gained in HTML and CSS.
 This website is created as a fan-page for 'THE WHO' fans showcasing; photos, audio clips and videos of performances by 'The WHO' which are embedded into the website. The website provides an option for fans to hire 'The WHO' for events such as weddings and Christmas parties if they wish to and to increase its fanbase.
 
@@ -100,18 +100,25 @@ The potential fan or fan can contact the 'The Who' band through the contact form
 
 The site was deployed on GitHub and locally on Cloud 9.
 
+## Git Hub Commits
+
+<strong> Please note in error two initial commits were commited on the 28th and 29th October respectively.</strong> The 'initial commit' on 29th October should read 'Navigation bar and fontawesome icons added'.
+
+Please also note on 20th November there was a merge conflict between the updated html and css pages and 'updated video heights and form filed sizes' and as result extra commits were added.
+   
 ## Credits
 
 ## Content
 
-The basic design for the header, footer and contact form sections was taken from the Code Institute's [Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/course/)
+The basic design for the header, footer and contact form sections was taken from The Code Institute's [Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/course/)
 
 ## Media
 
 
-### Background Image
+### Background Image and Logo
 
-The background image was taken from [The Who's' Wikepedia Page](https://en.wikipedia.org/wiki/The_Who)
+The background image was taken from [The Who's' Wikepedia Page](https://en.wikipedia.org/wiki/The_Who).
+The Logo was taken from [The Glide Magazine site](https://glidemagazine.com/190833/ignited-springfield-ma-civic-center-december-14-1975/the-who-logo/).
 
 #### Gallery
 
