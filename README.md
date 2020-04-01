@@ -1,4 +1,4 @@
-[Deployed Website](https://pranitastudent.github.io/Milestone-project/)
+[Deployed Website](https://pranitastudent.github.io/The-WHO-Project/)
 
 
 # 'The Who'- First Milestone Project
