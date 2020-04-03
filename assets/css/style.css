@@ -84,6 +84,15 @@
     
 }
 
+.titles {
+    font-size: 2rem;
+}
+
+.citation {
+    font-size: 1.5rem!important;
+}
+
+
 /*-------------------------------------------------------Main Quote---*/
 
 .bg-main-quote {
@@ -194,6 +203,10 @@ td {
 
 .navbar-right {
     margin-right: 2em;
+}
+
+.navbar-header {
+    height:33px;
 }
 
 /*--------------------------------------------------------Icon bar and toggle--*/
@@ -733,11 +746,3 @@ td {
 .form-group {
     margin-left: 4rem;
 }
-
-
-
-
-
-
-
-
